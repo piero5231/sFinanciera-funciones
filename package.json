@@ -1,0 +1,34 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "description": "probar funciones para el proyecto principal SFinanciero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/server.ts"
+  },
+  "author": "Piero SR",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.3.0",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "puppeteer": "^24.17.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.7",
+    "typedi": "^0.10.0"
+  }
+}
