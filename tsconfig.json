@@ -14,6 +14,6 @@
     "typeRoots": ["src/types"],
     "lib":["ES2020", "DOM"],
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "backData/20250605035110-diccionario-financiero-seeder.ts"],
   "exclude": ["node_modules"]
 }
